@@ -4,7 +4,7 @@ import credentials
 
 # create AWS Reko Client
 reko_client = boto3.client('rekognition', aws_access_key_id= credentials.access_key, aws_secret_access_key=credentials.secret_key, region_name='us-east-1')
-
+# blabla
 # set the target class
 target_class = 'Zebra'
 
